@@ -29,7 +29,7 @@ def connect(address):
     reciever(s)
 
 if __name__ == "__main__":
-    RHOST = "127.0.0.1"
-    RPORT = 4444 
+    host = "127.0.0.1"
+    port = 4444 
     connect((host, port))
 
