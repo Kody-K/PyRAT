@@ -43,8 +43,8 @@ def server(address):
     send_commands(s, conn)
 
 if __name__ == "__main__":
-    LHOST = "127.0.0.1"
-    LPORT = 4444
-    server((LHOST, LPORT))
+    host = "127.0.0.1"
+    port = 4444
+    server((host, port))
         
         
